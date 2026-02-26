@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+
+.black_bar{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+}
+.black_item_green{
+
+    color: green;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.black_item_green_small{
+    font-size: small;
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 1/2;
+   
+}
+.black_item_yellow{
+    
+    color: bisque;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.black_item_yellow_solo{
+    
+    color: bisque;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+/* Karty */
+.items{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-left: 7em;
+    margin-right: 7em;
+}
+.card{
+    overflow: hidden;
+}
+.card_img{
+    display: block;
+ /*   cursor: none;*/
+
+}
+.card_footer{
+padding-top: 0.2em;
+
+}
+.card_text{
+    font-size: small;
+    color: grey;
+}
+.card_buy_con{
+    display: flex;
+    align-items: center;
+    
+}
+.card_price{
+    padding-top: 5px;
+    font-weight: bold;
+}
+.Kc{
+    font-size: smaller;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 2px;
+    font-weight: bold;
+}
+.card_old_price{
+    padding-top: 5px;
+    font-size: small;
+    text-decoration: line-through;
+    color: gray;
+}
+.cart{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    margin-right: 1em;
+    border: 2px solid black;
+    border-radius: 40%;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
