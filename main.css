@@ -96,7 +96,7 @@ padding-top: 0.2em;
 }
 .cart{
     display: flex;
-    margin-left: auto;
+    margin-left: 8em;
     align-items: center;
     margin-right: 1em;
     border: 2px solid black;
@@ -105,4 +105,16 @@ padding-top: 0.2em;
     padding-right: 0.25em;
     margin-top: 0.3em;
 margin-bottom: 0.3em;
+}
+.explicit{
+    position: fixed;
+    bottom: 5px;
+    right: 0;
+    padding: 1em;
+    background: gray;
+    border-radius: 5px 0px 0px 5px;
+}
+.explicit_icon{
+    width: 5%;
+    height: 5%;
 }
